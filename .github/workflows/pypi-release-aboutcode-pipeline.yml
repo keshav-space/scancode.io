@@ -40,5 +40,5 @@ jobs:
       - name: Create a GitHub release
         uses: softprops/action-gh-release@v1
         with:
-          draft: false
+          draft: true
           files: dist/*
